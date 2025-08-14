@@ -1,0 +1,152 @@
+*{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: larger;
+    padding-left: 5%;
+    padding-top: 10px;
+    letter-spacing: 0.1em;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: larger;
+}
+li a{
+color: black;
+letter-spacing: 0.1em;
+}
+.image{
+    background-image: url(./architect.jpg);
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+}
+.image P{
+text-align: center;
+padding-top: 20%;
+font-size: 50px;
+letter-spacing: 0.2rem;
+color: white;
+}
+.image SPAN{
+    background-color:black ;
+    opacity: 0.7;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.projects img{
+    width: 289px;
+    height: 200px;
+
+}
+.projects .text{
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  color: white;
+  padding: 10px;
+  letter-spacing: 0.1rem;
+}
+.projects .text1{
+  background-color: black;
+  position: absolute;
+  top: 204px;
+  color: white;
+  padding: 10px;
+  letter-spacing: 0.1rem;
+}
+
+.project .title1{
+    font-size: xx-large;
+    padding:30px;
+    margin-left: -20px;
+}
+.about span{
+    font-size: xx-large;
+margin-top: 50px;
+padding-left: 10px;
+}
+.about p{
+    padding-left: 10px;
+}
+.images{
+    display: flex;
+     align-items: center;
+        justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.john{
+    width: 300px;
+    height: 500px;
+}
+ button{
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.images p{
+text-align: left;
+letter-spacing: 0.1rem;
+}
+.jane{
+    width: 300px;
+    height: 500px;
+}
+.mike{
+    width: 300px;
+    height: 500px;
+}
+.dan{
+    width: 300px;
+    height: 500px;
+}
+.Contact span{
+    font-size: xx-large;
+
+}
+.Contact p{
+    letter-spacing: 0.1rem;
+}
+.FINAL{
+    width: 15%;
+    margin: 20px;
+    padding: 10px;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+.FINAL:hover{
+    color: black;
+    background-color: grey;
+}
+.last{
+        background-image: url(./map.jpg);
+        width: 100%;
+        height: 100vh;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+}

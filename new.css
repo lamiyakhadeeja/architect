@@ -1,0 +1,88 @@
+*{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    margin-top: 0%;
+    
+}
+.logo{
+    font-size: x-large;
+    padding-left: 10%;
+    position: fixed;
+}
+li{
+    display: inline-block;
+    /* padding-left: 328px; */
+    font-size: larger;
+}
+li a{
+    color: cadetblue;
+    padding-left: 30px;
+}
+.ab a{
+    padding-left: 900px;
+}
+.image{
+    background-image: url(./hamburger.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.text{
+    padding-top: 82vh;
+    padding-left: 43px;
+    font-size: xx-large;
+    color: grey;
+    letter-spacing: .1rem;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px
+}
+.text1{
+    margin: 50px;
+}
+.text1 h1{
+    text-align: center;
+}
+.text1 h4{
+    text-align: center;
+}
+
+.J8{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.J8 .menu span{
+    font-size: larger;
+}
+.Contact{
+    margin: 30px;
+}
+.Contact span{
+   color: gray;   
+}
+.Contact .text2{
+    border: none;
+    outline: none;
+
+}
+.text2{
+    margin-top: 30px;
+}
+
+
